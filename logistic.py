@@ -17,8 +17,8 @@ class CustomLogisticRegression:
         self.lr = lr
         self.epochs = epochs
 
-    @staticmethod
-    def sigmoid(t: numpy.array) -> float:
+   
+    def sigmoid(self, t: numpy.array) -> float:
         """
         :param t:
         :return:

@@ -156,14 +156,6 @@ def main():
            'logloss_error_last': log_loss_error_last}
 
     print(dic)
-    print("Answers to the questions:\n")
-    print(f'1) 0.0001\n'
-          f'2) 0.000\n'
-          f'3) 0.00153\n'
-          f'4) 0.00600\n'
-          f'5) expanded\n'
-          f'6) expanded')
-
 
 if __name__ == "__main__":
     main()
